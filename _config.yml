@@ -1,1 +1,70 @@
-# Test content
+# Site settings
+title: ClawX Guide - 智能助手完全教程
+email: admin@clawx-guide.com
+description: >-
+  全面的ClawX和OpenClaw使用教程、自动化技巧和最佳实践。
+  从入门到精通，提升你的工作效率。
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://clawx-guide.com" # the base hostname & protocol for your site
+twitter_username: clawxguide
+github_username:  clawxguide
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# SEO settings
+logo: "/assets/images/logo.png"
+google_analytics: UA-XXXXXXXXX-X  # 需要替换
+google_site_verification: ""  # Search Console验证码
+
+# Social links
+social_links:
+  twitter: clawxguide
+  github:  clawxguide
+  rss:     feed.xml
+
+# Navigation
+header_pages:
+  - about.md
+  - tutorials.md
+  - contact.md
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "ClawX Team"
+      comments: false
+      share: true
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .github
+  - README.md
+
+# Sitemap settings
+sitemap:
+  filename: "sitemap.xml"
+  exclude:
+    - /404.html
+  include_posts: true
+  include_pages: true
+  change_frequency: "weekly"
+  priority: 0.7
