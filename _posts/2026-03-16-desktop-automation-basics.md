@@ -1,0 +1,1 @@
+---\nlayout: post\ntitle: "桌面自动化基础"\ndate: 2026-03-16 23:14:55 +0800\ncategories: [基础教程]\ntags: [clawx,教程,桌面自动化,基础,入门,实践]\nauthor: "ClawX Team"\nexcerpt: "学习ClawX桌面自动化的基础知识和实践"\n---\n\n# 桌面自动化基础\n\n学习ClawX桌面自动化的基础知识和实践\n\n## 概述\n\n本教程将介绍ClawX桌面自动化的基础知识和实践技巧。\n\n*完整内容将在后续更新中提供*
